@@ -12,7 +12,11 @@ class PrimaryButton extends StatelessWidget {
     return ElevatedButton(
       onPressed: onPressed ?? () {},
       child: Text(title),
-      style: ElevatedButton.styleFrom(primary: const Color(0xff005aa3)),
+      style: ElevatedButton.styleFrom(
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(25),
+          ),
+          primary: const Color(0xff005aa3)),
     );
   }
 }

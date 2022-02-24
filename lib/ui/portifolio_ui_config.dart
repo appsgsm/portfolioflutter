@@ -6,9 +6,8 @@ class PortifolioUiConfig {
 
   static ThemeData get themeLight => ThemeData(
       textTheme: GoogleFonts.poppinsTextTheme(),
-      backgroundColor: const Color(0xffD6DFE4),
-      primaryColor: const Color(0xff005aa3),
-      primaryColorLight: const Color(0xff172026),
+      primaryColor: const Color(0xff055AA3),
+      primaryColorLight: const Color(0xffD6DFE4),
       elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
         primary: const Color.fromRGBO(5, 90, 163, 1),
@@ -16,9 +15,7 @@ class PortifolioUiConfig {
 
   static ThemeData get themeDark => ThemeData(
       textTheme: GoogleFonts.poppinsTextTheme(),
-      backgroundColor: const Color(0xff121517),
-      primaryColor: const Color(0xff055AA3),
-      primaryColorLight: const Color(0xffEDF4F8),
+      primaryColorDark: const Color(0xff121517),
       elevatedButtonTheme: ElevatedButtonThemeData(
           style: ElevatedButton.styleFrom(
         primary: const Color(0xff055AA3),

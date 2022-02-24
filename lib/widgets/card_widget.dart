@@ -42,7 +42,7 @@ class CardWidget extends StatelessWidget {
           fit: BoxFit.fitHeight,
           child: Container(
             constraints: BoxConstraints(minHeight: screenSize.height * 0.4),
-            width: screenSize.width * 0.94,
+            width: screenSize.width * 1,
             child: Column(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [

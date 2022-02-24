@@ -17,7 +17,7 @@ class IconCard extends StatelessWidget {
       child: icon,
       style: ElevatedButton.styleFrom(
         shape: const CircleBorder(),
-        padding: const EdgeInsets.all(20),
+        padding: const EdgeInsets.all(15),
         primary: iconColor,
       ),
     );
